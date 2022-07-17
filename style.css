@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    font-family: font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #A5C9CA);
+    color: white;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+}
+.bpic {
+    width: 180px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+}
+
+#head{
+    text-shadow: 0px 0px 1px black; 
+
+}
+
+#wish{
+    text-shadow: 0px 0px 1px black; 
+    padding: 8px 4px 8px;
+    background-color:#EFB0C9 ;
+    border-radius: 5px;
+    margin: 15px 0 10px 0;  
+}
+
+#date{
+     text-shadow: 0px 0px 1px black; 
+     padding: 8px 4px 8px;
+     border-radius: 5px;
+}
+
+.gifts-image {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("photos/gifts.jpg");
+    background-size: cover;
+}
+#gif1:hover{
+    background-image: url("photos/1W9X.gif");
+}
+.gifts-part{
+    padding-top: 40px;
+}
+#gif2:hover{
+    background-image: url("photos/4GbV.gif");
+}
+#gif3:hover{
+    background-image: url("photos/1sAS.gif");
+}
+.gifts-differ {
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("photos/gifts.jpg");
+    background-size: cover;
+}
+#gif4:hover{
+    background-image: url("photos/8qQu.gif");
+}
+.footer{
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
